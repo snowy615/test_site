@@ -6,6 +6,10 @@
 // alert("hello!");
 
 //switch the images if clicked upon
+let myButton = document.querySelector("button");
+let myHeading = document.querySelector("h1");
+
+
 const myImage = document.querySelector("img");
 myImage.onclick = () => {
   const mySrc = myImage.getAttribute("src");
@@ -49,6 +53,6 @@ myButton.onclick = () => {
   
   
 //create button
-let myButton = document.querySelector("button");
-let myHeading = document.querySelector("h1");
+// let myButton = document.querySelector("button");
+// let myHeading = document.querySelector("h1");
   
